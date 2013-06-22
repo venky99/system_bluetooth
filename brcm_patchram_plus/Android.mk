@@ -12,6 +12,8 @@ LOCAL_SRC_FILES := brcm_patchram_plus.c
 
 LOCAL_MODULE := brcm_patchram_plus
 
+LOCAL_MODULE_TAGS := optional
+
 LOCAL_SHARED_LIBRARIES := libcutils liblog
 
 LOCAL_C_FLAGS := \
